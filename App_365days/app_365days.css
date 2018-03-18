@@ -1,0 +1,141 @@
+body {
+    width: 1280px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    margin: 0 auto 0;
+}
+
+a:link {
+    color: white;
+}
+/*未訪問リンク*/
+a:visited {
+    color: red;
+}
+/*訪問済みのリンク*/
+a:hover {
+    color: blue;
+}
+/*ポイント時のリンク*/
+
+
+/*/////////side//////////*/
+
+#side {
+    float: left;
+    width: 255px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+/*    left: 0;*/
+    margin: auto;
+}
+#side #menubg {
+    float: left;
+    width: 255px;
+    height: 800px;
+    background-image: url(../App_Menu/menu.png);
+}
+.menu_bar {
+    width: 80%;
+    margin: 75% 0 0 0;
+    list-style: none;
+    text-align: center;
+}
+.menu_bar li {
+    width: 100%;
+    margin: 18% 0 0 -5%;
+}
+.menu_appdesign {}
+.menu_appdesign>ul {
+    position: absolute;
+    top: 500px;
+    left: 14%;
+    width: 150px;
+    color: white;
+    height: 0;
+    overflow: hidden;
+    list-style: none;
+}
+.menu_appdesign>ul>li {
+    width: 120px;
+    margin: 10px 0 10px;
+}
+.menu_appdesign:hover>ul {
+    height: auto;
+}
+
+/*/////////main//////////*/
+
+#main {
+    float: left;
+    width: 1015px;
+    margin: 0 0 20px 250px;
+}
+#bg {
+    width: 1015px;
+    margin: 0 auto 0;
+}
+
+/*////////part01////////*/
+
+#part01 {
+    float: left;
+    width: 65%;
+    margin: 0% 1% 0 1%;
+}
+#part01 h1 {
+    text-align: center;
+    font-weight: 700;
+    font-family: "Yu Mincho";
+    font-size: 45px;
+}
+#part01 p {
+    width: 90%;
+    font-size: 20px;
+    font-family: "Meiryo UI";
+    line-height: 2;
+    margin: 5% 5% 0 5%;
+}
+#app365icon {
+    width: 25%;
+    margin: 5% 0 0 3%;
+}
+video {
+    clear: both;
+    width: 325px;
+    height: 560px;
+    margin: 10% 0 5% 7%;
+}
+iframe {
+    clear: both;
+    width: 325px;
+    height: 560px;
+    margin: 10% 0 5% 7%;
+}
+
+
+/*////////part02////////*/
+
+#part02 {
+    float: right;
+    width: 50%;
+    margin: 2% 5% 0 0;
+}
+#part02 h3 {
+    font-weight: 600;
+    font-family: "Yu Mincho";
+    font-size: 26px;
+}
+#part02 ol {
+    font-size: 20px;
+    font-family: "Meiryo UI";
+}
+#part02 li {
+    line-height: 1.7;
+}
+#part02 p {
+    font-size: 18px;
+}

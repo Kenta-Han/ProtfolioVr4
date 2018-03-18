@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>365日の思い出</title>
+    <!--    <meta name="viewport" content="width=device-width">-->
+    <link rel="stylesheet" href="../App_365days/app_365days.css">
+    <script src="../JavaScript/jquery-3.1.0.min.js"></script>
+    <!--デバイス判断JS-->
+    <script>
+        if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+            // スマホ用のページにリダイレクトする
+            location.href = '../App_365days/app_365days_sp.html';
+        }
+    </script>
+    <!--Google Analytics-->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-92255928-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+    <div id="side">
+        <nav id="menubg">
+            <ul class="menu_bar">
+                <li>
+                    <a href="../index.html"><img src="../App_Menu/Portfolio.png"></a>
+                </li>
+                <li>
+                    <a href="../index.html#about"><img src="../App_Menu/About.png"></a>
+                </li>
+                <li>
+                    <a href="../index.html#calligraphy"><img src="../App_Menu/Calligraphy.png"></a>
+                </li>
+                <li>
+                    <a href="../index.html#design"><img src="../App_Menu/Design.png"></a>
+                </li>
+                <li class="menu_appdesign">
+                    <a href="../index.html#appdesign"><img src="../App_Menu/AppDesign.png"></a>
+                    <ul class="menu_appdesign_de">
+                        <li><a href="../App_365days/app_365days.html">365日の思い出</a></li>
+                        <li><a href="../App_Triperson/app_triperson.html">Triperson</a></li>
+                        <li><a href="../App_Aniota/app_aniota.html">ANIOTA</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="main">
+        <img src="../App_365days/Background_Web.png" id="bg">
+        <br>
+        <div id="part01">
+            <h1>思い出を簡単に記録する</h1>
+            <p>　思い出を簡単かつ素早く記録することできるようをイメージしながら制作しました。
+                <br>　4種類のメイン機能が揃っています。ユーザーがわざわざそれぞれの機能のアプリを開く必要がなく、簡単かつ快速に365日の思い出を形に残ることができます。</p>
+        </div>
+        <img src="../App_365days/365days-icon.png" id="app365icon">
+        <!--<video src="../App_365days/365days-video.mp4" controls loop></video>-->
+        <iframe src="https://www.youtube.com/embed/W9-d3UPdgCw" frameborder="0" allowfullscreen></iframe>
+
+        <div id="part02">
+            <h3>アプリ画面の紹介</h3>
+            <ol>
+                <li>スタート画面</li>
+                <p>---夜空を背景にして、1つの星は1つの思い出</p>
+                <li>ホーム画面</li>
+                <p>---素早く押すためにボタンを大きくする</p>
+                <li>入力画面</li>
+                <li>カレンダー画面</li>
+                <p>---日付をタッチすることによって、その日の出来ことが見ることができる</p>
+                <li>本日のイベント画面</li>
+                <p>---4つの記録機能で記録するものが一気に見るや聞くことができる</p>
+                <li>設定画面</li>
+                <p>---機能別で見ることができる</p>
+                <li>配色変更1</li>
+                <li>配色変更2</li>
+                <p>---背景や配色は自由に変更することが可能</p>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>

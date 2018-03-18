@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>PORTFOLIO</title>
+    <!--    <meta name="viewport" content="width=device-width">-->
+    <script src="../JavaScript/jquery-3.1.0.min.js"></script>
+    <script>
+        if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+            document.write('<link rel="stylesheet" type="text/css" href="./index_sp.css">');
+        } else {
+            document.write('<link rel="stylesheet" type="text/css" href="./index.css">');
+        }
+    </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-92255928-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+    <!--JSで文字を表示する-->
+    <!--<script>
+        if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {} else {
+            document.write('<img src="./Portfolio/moji./*png*/" id="moji">');
+        }
+    </script>
+    <script src="../JS/moji.js"></script>-->
+
+    <div id="menu"> 
+        <script>
+            //var top_menu = document.getElementById("top_menu");
+            if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+                elem.styple.display = "none";
+            } else {
+                document.write('<a href="#header"><img src="./Portfolio/Menu/Top.png" id="top_menu"></a>');
+            }
+        </script>
+        <a href="#about"><img src="./Portfolio/Menu/About.png" id="about_menu"></a>
+        <a href="#calligraphy"><img src="./Portfolio/Menu/Calligraphy.png" id="calligraphy_menu"></a>
+        <a href="#design"><img src="./Portfolio/Menu/Design.png" id="design_menu"></a>
+        <a href="#appdesign"><img src="./Portfolio/Menu/AppDesign.png" id="appdesign_menu"></a>
+    </div>
+
+    <div id="header">
+        <img src="./Portfolio/Menu/portfolio2_Web.png">
+        <!--JSで文字を表示する-->
+        <!--<img src="./Portfolio/Menu/portfolio_Web.png">-->
+    </div>
+
+    <div id="about">
+        <div id="about_left">
+            <img src="./Portfolio/About/About.png" id="about_about">
+            <br>
+            <img src="./Portfolio/About/Myphoto.png" id="myphoto">
+        </div>
+        <div id="about_right">
+            <p id="name"><span>潘健太</span>　(1996年1月　中国・天津)</p>
+            <p id="lab">インタラクティブメディア研究室所属</p>
+            <p id="hoppy">趣味：書道,バスケ,水泳,アニメ/野球鑑賞</p>
+            <p id="skill">スキル：C言語,Java,Matlab(大学授業で基礎を学びました.)
+                <br>&nbsp;&nbsp;&nbsp;HTML5,CSS3,Javascript(独習中)</p>
+            <p id="profile">13歳まで中国で育ち,その後長野県飯田市に来ました.日本語独力で学び,高校受験で上京し,現在は大学4年生です.デザイナーを目指して,WebデザインやUI/UXデザイン,コーディングについて学んでいます.
+            </p>
+            <a href="https://www.facebook.com/kenta.han.9"><img src="./Portfolio/About/Facebook.png" id="facebook"></a>
+            <a href="https://twitter.com/Hankenta0131"><img src="./Portfolio/About/Twitter.png" id="twitter"></a>
+        </div>
+    </div>
+
+    <div id="calligraphy">
+        <img src="./Portfolio/Calligraphy/Calligraphy.png" id="calligraphy_calligraphy">
+        <br>
+        <a href="./Calli_Clerical/clerical.html">
+            <img src="./Portfolio/Calligraphy/clerical.png" id="clerical"></a>
+        <a href="./Calli_Original/original.html">
+            <img src="./Portfolio/Calligraphy/original.png" id="original"></a>
+        <a href="./Calli_Printed/printed.html">
+            <img src="./Portfolio/Calligraphy/printed.png" id="printed"></a>
+    </div>
+
+    <div id="design">
+        <img src="./Portfolio/Design/Design.png" id="design_design">
+        <br>
+        <figure id="ring">
+            <img src="./Portfolio/Design/ring.png">
+            <figcaption id="ring_f">
+                <h1>「輪」</h1>
+                <p>
+                    <br>リオ五輪が閉幕し,人々が2020年の東京五輪を迎える気持ちで描きました。「車」を東京都の「東」に書き換え,都の木「イチョウ」の色を使いました。また,「侖」の下の部分は五輪を使って描きました。</p>
+            </figcaption>
+        </figure>
+        <figure id="road">
+            <img src="./Portfolio/Design/road.png">
+            <figcaption id="road_f">
+                <h1>「道」</h1>
+                <p>
+                    <br>人々はそれぞれ自分の進む道(人生)がある。平坦な道、危険な道など。どんな道に進んでも自分を信じ一歩ずつ前に向いて歩けば、いずれTopに立つ日が来ます。</p>
+            </figcaption>
+        </figure>
+        <figure id="love">
+            <img src="./Portfolio/Design/love.png">
+            <figcaption id="love_f">
+                <h1>「愛」</h1>
+                <p>
+                    <br>人々,家族,恋人,友人,仕事。愛は一文字ですが,使う道によっていろいろな意味を持っています。しかし,どこにしても必ず心(ハード)を込めて愛しなければならない。</p>
+            </figcaption>
+        </figure>
+        <figure id="fight">
+            <img src="./Portfolio/Design/fight.png">
+            <figcaption id="fight_f">
+                <h1>「戦」</h1>
+                <p>
+                    <br>ニュースを見て。今！世界中のどこかで戦争が勃発し,人々が血を流し,争い続けますの思いを抱き描きました。</p>
+            </figcaption>
+        </figure>
+        <figure id="network">
+            <img src="./Portfolio/Design/network.png">
+            <figcaption id="network_f">
+                <h1>「網」</h1>
+                <p>
+                    <br>「網」の漢字を見て頭の中はまず「ネットワーク」という単語が出てきました。よって「網」になるように「ネットワー</p>
+            </figcaption>
+        </figure>
+        <figure id="call">
+            <img src="./Portfolio/Design/call.png">
+            <figcaption id="call_f">
+                <h1>「書」</h1>
+                <p>秋の風景をイメージして描きました。背景遠いから見ると道になっています。真ん中は月で,渡り鳥となっています。「日」は秋を代表する紅葉とその色を使って太陽をイメージしています。</p>
+            </figcaption>
+        </figure>
+        <figure id="logo">
+            <img src="./Portfolio/Design/logo.png">
+            <figcaption id="logo_f">
+                <h2>「My logo」</h2>
+                <p>英文字の「P,H,A,N,G,O,K,E,T」に見えます。これらの英文字に組み合わせると今までの自分の名前になります。
+                    <br>・　PAN HAO(中国語読み)
+                    <br>・　HAN GO(日本語読み)
+                    <br>・　HAN KENTA(通称)</p>
+            </figcaption>
+        </figure>
+    </div>
+
+    <div id="appdesign">
+        <img src="./Portfolio/AppDesign/AppDesign.png" id="appdesign_appdesign">
+        <br>
+        <a href="./App_365days/app_365days.html"><img src="./Portfolio/AppDesign/365.png" id="app365"></a>
+        <a href="./App_Triperson/app_triperson.html"><img src="./Portfolio/AppDesign/Triperson.png" id="triperson"></a>
+        <a href="./App_Aniota/app_aniota.html"><img src="./Portfolio/AppDesign/Aniota.png" id="aniota"></a>
+    </div>
+
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4891708.645554856!2d124.90455535731294!3d37.351195537856285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35edfc621e2c0e87%3A0x847194b730884031!2z5Lit6I-v5Lq65rCR5YWx5ZKM5Zu9IOWkqea0peW4giDlpKnmtKU!5e0!3m2!1sja!2sjp!4v1496027060665" width="1080" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <div id="footer">
+        <div id="footer_left">
+            <p>Old portfolio(Vr2)→<a href="http://kenta2016myhp.web.fc2.com">http://kenta2016myhp.web.fc2.com</a></p>
+            <p>Old portfolio(Vr3)→<a href="http://kenta2016myhp.sitemix.jp">http://kenta2016myhp.sitemix.jp</a></p>
+            <p>My vivivit→<a href="https://www.vivivit.com/profile/public/fFULgc1hxQ">https://www.vivivit.com/profile/public/fFULgc1hxQ</a></p>
+        </div>
+        <div id="footer_right">
+            <img src="./Portfolio/Footer/myillust.png" id="myillust">
+        </div>
+        <br>
+        <p id="last">Copyright © 2017 Kenta Han</p>
+    </div>
+</body>
+
+</html>

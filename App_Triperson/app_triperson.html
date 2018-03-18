@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Triperson</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../App_Triperson/app_triperson.css">
+    <script src="../JavaScript/jquery-3.1.0.min.js"></script>
+    <!--デバイス判断JS-->
+    <script>
+        if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+            // スマホ用のページにリダイレクトする
+            location.href = '../App_Triperson/app_triperson_sp.html';
+        }
+    </script>
+    <!--Google Analytics-->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-92255928-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+    <div id="side">
+        <nav id="menubg">
+            <ul class="menu_bar">
+                <li>
+                    <a href="../index.html"><img src="../App_Menu/Portfolio.png"></a>
+                </li>
+                <li>
+                    <a href="../index.html#about"><img src="../App_Menu/About.png"></a>
+                </li>
+                <li>
+                    <a href="../index.html#calligraphy"><img src="../App_Menu/Calligraphy.png"></a>
+                </li>
+                <li>
+                    <a href="../index.html#design"><img src="../App_Menu/Design.png"></a>
+                </li>
+                <li class="menu_appdesign">
+                    <a href="../index.html#appdesign"><img src="../App_Menu/AppDesign.png"></a>
+                    <ul class="menu_appdesign_de">
+                        <li><a href="../App_365days/app_365days.html">365日の思い出</a></li>
+                        <li><a href="../App_Triperson/app_triperson.html">Triperson</a></li>
+                        <li><a href="../App_Aniota/app_aniota.html">ANIOTA</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="main">
+        <img src="../App_Triperson/Background.png" id="bg">
+        <br>
+        <div id="part01">
+            <h1>旅をもっと楽しみになる</h1>
+            <p>　普段は行きたい場所を考えてから電車き乗って目的地に向かっていますが、アプリには頼って目的地を決めって見よ、君の心の寄り場所必ず見つかることができます。
+                <br>　タイトルの「Triperson」はTripとPersonの組み合わせで旅する人という意味でつけました。
+                <br>　全体の色は緑にしています。皆さん「電車」と聞く山手線の緑色思い出すから、濃い緑色をベースにしてアプリをデザインしました。</p>
+        </div>
+        <img src="../App_Triperson/Triperson-icon.png" id="apptripersonicon">
+        <!--<video src="../App_Triperson/Triperson-video.mp4" controls loop></video>-->
+        <iframe src="https://www.youtube.com/embed/44rY3Kpudd8" frameborder="0" allowfullscreen></iframe>
+
+        <div id="part02">
+            <h3>アプリ画面の紹介</h3>
+            <ol>
+                <li>スタート画面</li>
+                <p>---現在地から賃金500円で何処までいけるを探す(500円は最低のライン1000円など設定できる)</p>
+                <li>登録画面</li>
+                <p>---ユーザーで投稿した情報を頼りにいける場所を探す、信憑性を上げるためユーザーが評価してもらう、よって登録が必要とする</p>
+                <li>メイン画面(タイムライン)</li>
+                <p>---現在地や登録した駅を表示、設定した賃金へいける場所の投稿を表示する、開くと具体的な時間などの情報が表示する</p>
+                <li>メニュー</li>
+                <p>---設定やプロフィールなどの編集ができる</p>
+                <li>プロフィール(自分の投稿)</li>
+                <p>---みんなに教えたいたい穴場を投稿する</p>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>

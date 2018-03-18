@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>365日の思い出</title>
+    <!--    <meta name="viewport" content="width=device-width">-->
+    <link rel="stylesheet" href="../App_365days/app_365days_sp.css">
+    <script src="../JS/modernizr.custom.js"></script>
+    <!--Google Analytics-->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-92255928-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+    <div class="column">
+        <div id="dl-menu" class="dl-menuwrapper">
+            <button class="dl-trigger">Open Menu</button>
+            <ul class="dl-menu">
+                <li>
+                    <a href="../index.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="../index.html#about">About</a>
+                </li>
+                <li>
+                    <a href="../index.html#calligraphy">Calligraphy</a>
+                    <ul class="dl-submenu">
+                        <li><a href="../Calli_Clerical/clerical.html">隷書</a></li>
+                        <li><a href="../Calli_Original/original.html">会意</a></li>
+                        <li><a href="../Calli_Printed/printed.html">楷書</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../index.html#design">Design</a>
+                </li>
+                <li>
+                    <a href="../index.html#appdesign">AppDesign</a>
+                    <ul class="dl-submenu">
+                        <li><a href="../App_365days/app_365days_sp.html">365日の思い出</a></li>
+                        <li><a href="../App_Triperson/app_triperson_sp.html">Triperson</a></li>
+                        <li><a href="../App_Aniota/app_aniota_sp.html">ANIOTA</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <h1>365日の思い出</h1>
+        <!-- /dl-menuwrapper -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../JS/jquery.dlmenu.js"></script>
+    <script>
+        $(function () {
+            $('#dl-menu').dlmenu();
+        });
+    </script>
+    <div class="main">
+        <img src="../App_365days/Background_Web.png" id="bg">
+        <div id="part01">
+            <h1>思い出を簡単に記録する</h1>
+            <p>思い出を簡単かつ素早く記録することできるようをイメージしながら制作しました。
+                <br>4種類のメイン機能が揃っています。ユーザーがわざわざそれぞれの機能のアプリを開く必要がなく、簡単かつ快速に365日の思い出を形に残ることができます。</p>
+            <img src="../App_365days/365days-icon.png" id="app365icon">
+        </div>
+        <!--<video src="../App_365days/365days-video.mp4" controls loop></video>-->
+        <iframe src="https://www.youtube.com/embed/W9-d3UPdgCw" frameborder="0" allowfullscreen></iframe>
+
+        <div id="part02">
+            <h3>アプリ画面の紹介</h3>
+            <ol>
+                <li>スタート画面</li>
+                <p>---夜空を背景にして、1つの星は1つの思い出</p>
+                <li>ホーム画面</li>
+                <p>---素早く押すためにボタンを大きくする</p>
+                <li>入力画面</li>
+                <li>カレンダー画面</li>
+                <p>---日付をタッチすることによって、その日の出来ことが見ることができる</p>
+                <li>本日のイベント画面</li>
+                <p>---4つの記録機能で記録するものが一気に見るや聞くことができる</p>
+                <li>設定画面</li>
+                <p>---機能別で見ることができる</p>
+                <li>配色変更1</li>
+                <li>配色変更2</li>
+                <p>---背景や配色は自由に変更することが可能</p>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>

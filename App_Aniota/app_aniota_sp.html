@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>ANIOTA</title>
+    <!--    <meta name="viewport" content="width=device-width">-->
+    <link rel="stylesheet" href="../App_Aniota/app_aniota_sp.css">
+    <script src="../JS/modernizr.custom.js"></script>
+    <!--Google Analytics-->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-92255928-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+    <div class="column">
+        <div id="dl-menu" class="dl-menuwrapper">
+            <button class="dl-trigger">Open Menu</button>
+            <ul class="dl-menu">
+                <li>
+                    <a href="../index.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="../index.html#about">About</a>
+                </li>
+                <li>
+                    <a href="../index.html#calligraphy">Calligraphy</a>
+                    <ul class="dl-submenu">
+                        <li><a href="../Calli_Clerical/clerical.html">隷書</a></li>
+                        <li><a href="../Calli_Original/original.html">会意</a></li>
+                        <li><a href="../Calli_Printed/printed.html">楷書</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../index.html#design">Design</a>
+                </li>
+                <li>
+                    <a href="../index.html#appdesign">AppDesign</a>
+                    <ul class="dl-submenu">
+                        <li><a href="../App_365days/app_365days_sp.html">365日の思い出</a></li>
+                        <li><a href="../App_Triperson/app_triperson_sp.html">Triperson</a></li>
+                        <li><a href="../App_Aniota/app_aniota_sp.html">ANIOTA</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <h1>ANIOTA</h1>
+        <!-- /dl-menuwrapper -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../JS/jquery.dlmenu.js"></script>
+    <script>
+        $(function () {
+            $('#dl-menu').dlmenu();
+        });
+    </script>
+    <div class="main">
+        <img src="../App_Aniota/Background_Web.png" id="bg">
+        <div id="part01">
+            <h1>片手でWorld(2次元)を収めよう!!!</h1>
+            <p>　通学中でアニメを見るときはスマホが横向きのため、片手でコメントやコントロールすること難いです。 電車で多くの人が動画見るとき吊り手が掴まないため、ブレーキするとき危険です。よって、今回は片手で吊り手を掴み、片手でコメント入力やコントロールしやすいような、アニメ見るアプリをデザインしました。 </p>
+            <img src="../App_Aniota/ANIOTA-icon.png" id="appaniota">
+        </div>
+
+        <!--<video src="../App_Aniota/ANIOTA-video.mp4" controls loop></video>-->
+        <iframe src="https://www.youtube.com/embed/XiwDvfYFjNI" frameborder="0" allowfullscreen></iframe>
+        <img src="../App_Aniota/ANIOTA_Web.png" id="img15">
+        <div id="part02">
+            <h3>アプリ画面の紹介</h3>
+            <ol>
+                <li>スタート画面</li>
+                <p>---アプリ全体はオレンジ色をメインとして、ワクワクの躍動感を出しています</p>
+                <li>ログイン画面</li>
+                <p>---投稿や番組フォローなど機能が備えているため、SNS連携や新規登録してもらいます</p>
+                <li>メイン画面(おすすめ)</li>
+                <p>---画面の上半分はおすすめの番組、下半分は現在放送中アニメになっています</p>
+                <li>メイン画面(チャンネル)</li>
+                <p>---年代別や種類別で分けています</p>
+                <li>チャット画面</li>
+                <li>マイプロフィール</li>
+                <li>動画＋概要+メニュー画面</li>
+                <li>動画＋チャット入力画面</li>
+                <p>---キーボードやコントロールはジェスチャを使って左右下移動することができる。左手や右手に変えてもすぐにキーボードを移動することができる。 今回のアプリデザインは右手で使用することを想定して作っています</p>
+                <li>動画＋コントロール画面</li>
+                <p>---再生,音量,フルー画面など動画を見る時使うコントロールが全部右手のみで操作することができます。また、画面をロックすることができる、よって間違って他の画面に移動する心配がありません</p>
+                <li>動画＋話数選択画面</li>
+                <p>---見たい話数を入力して見ることができます</p>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>

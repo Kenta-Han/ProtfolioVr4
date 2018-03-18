@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Triperson</title>
+    <!--    <meta name="viewport" content="width=device-width">-->
+    <link rel="stylesheet" href="../App_Triperson/app_triperson_sp.css">
+    <script src="../JS/modernizr.custom.js"></script>
+    <!--Google Analytics-->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-92255928-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+    <div class="column">
+        <div id="dl-menu" class="dl-menuwrapper">
+            <button class="dl-trigger">Open Menu</button>
+            <ul class="dl-menu">
+                <li>
+                    <a href="../index.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="../index.html#about">About</a>
+                </li>
+                <li>
+                    <a href="../index.html#calligraphy">Calligraphy</a>
+                    <ul class="dl-submenu">
+                        <li><a href="../Calli_Clerical/clerical.html">隷書</a></li>
+                        <li><a href="../Calli_Original/original.html">会意</a></li>
+                        <li><a href="../Calli_Printed/printed.html">楷書</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../index.html#design">Design</a>
+                </li>
+                <li>
+                    <a href="../index.html#appdesign">AppDesign</a>
+                    <ul class="dl-submenu">
+                        <li><a href="../App_365days/app_365days_sp.html">365日の思い出</a></li>
+                        <li><a href="../App_Triperson/app_triperson_sp.html">Triperson</a></li>
+                        <li><a href="../App_Aniota/app_aniota_sp.html">ANIOTA</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <h1>Triperson</h1>
+        <!-- /dl-menuwrapper -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../JS/jquery.dlmenu.js"></script>
+    <script>
+        $(function () {
+            $('#dl-menu').dlmenu();
+        });
+    </script>
+    <div class="main">
+        <img src="../App_Triperson/Background.png" id="bg">
+        <div id="part01">
+            <h1>旅をもっと楽しみになる</h1>
+            <p>普段は行きたい場所を考えてから電車き乗って目的地に向かっていますが、アプリには頼って目的地を決めって見よ、君の心の寄り場所必ず見つかることができます。
+                <br>タイトルの「Triperson」はTripとPersonの組み合わせで旅する人という意味でつけました。
+                <br>全体の色は緑にしています。皆さん「電車」と聞く山手線の緑色思い出すから、濃い緑色をベースにしてアプリをデザインしました。</p>
+            <img src="../App_Triperson/Triperson-icon.png" id="apptripersonicon">
+        </div>
+
+        <!--<video src="../App_Triperson/Triperson-video.mp4" controls loop></video>-->
+        <iframe src="https://www.youtube.com/embed/44rY3Kpudd8" frameborder="0" allowfullscreen></iframe>
+
+        <div id="part02">
+            <h3>アプリ画面の紹介</h3>
+            <ol>
+                <li>スタート画面</li>
+                <p>---現在地から賃金500円で何処までいけるを探す(500円は最低のライン1000円など設定できる)</p>
+                <li>登録画面</li>
+                <p>---ユーザーで投稿した情報を頼りにいける場所を探す、信憑性を上げるためユーザーが評価してもらう、よって登録が必要とする</p>
+                <li>メイン画面(タイムライン)</li>
+                <p>---現在地や登録した駅を表示、設定した賃金へいける場所の投稿を表示する、開くと具体的な時間などの情報が表示する</p>
+                <li>メニュー</li>
+                <p>---設定やプロフィールなどの編集ができる</p>
+                <li>プロフィール(自分の投稿)</li>
+                <p>---みんなに教えたいたい穴場を投稿する</p>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>
